@@ -1,5 +1,3 @@
-
-
 ---
 title:  "Fears over DNA privacy as 23andMe plans to go public in deal with Richard Branson"
 layout: default
