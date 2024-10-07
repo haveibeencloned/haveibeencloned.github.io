@@ -1,109 +1,395 @@
----
-layout: default
-title:  home
----
+<!--
+=========================================================
+* Argon Design System - v1.2.2
+=========================================================
 
-<div class="section no-pad-bot" id="index-banner">
-  <div class="container">
-    <br><br>
-    <h1 class="header center orange-text">haveibeencloned</h1>
-    <div class="row center">
-      <h5 class="header col s12 light">Cleaning up genetic material on the internet</h5>
-    </div>
-    <div class="row center">
-      <!--<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>-->
-        <div class="col s12">
-          <div class="input-field dna">
-            <i class="material-icons prefix">account_circle</i>
-            <input id="dna_inline" type="text" data-length="3088286401">
-            <label for="dna_inline">Enter your DNA profile</label>
-            <!--<span class="helper-text" data-error="wrong" data-success="right"></span>-->
+* Product Page: https://www.creative-tim.com/product/argon-design-system
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+
+Coded by www.creative-tim.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <title>
+    Argon Design System by Creative Tim
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
+  <!-- Nucleo Icons -->
+  <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <link href="assets/css/font-awesome.css" rel="stylesheet" />
+  <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="assets/css/argon-design-system.css?v=1.2.2" rel="stylesheet" />
+</head>
+
+<body class="landing-page">
+  <!-- Navbar -->
+  <!-- <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light py-2">
+    <div class="container">
+      <a class="navbar-brand mr-lg-5" href="../index.html">
+        <img src="assets/img/brand/white.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbar_global">
+        <div class="navbar-collapse-header">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="../../../index.html">
+                <img src="assets/img/brand/blue.png">
+              </a>
+            </div>
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+              </button>
+            </div>
           </div>
         </div>
-
-        <div class="row center">
-      <!--<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>-->
-          <div class="col s12">
-            <button class="btn light-blue lighten-1" type="submit" name="action">Look me up
-              <i class="material-icons right">send</i>
+        <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
+              <i class="ni ni-ui-04 d-lg-none"></i>
+              <span class="nav-link-inner--text">Components</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-xl">
+              <div class="dropdown-menu-inner">
+                <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html" class="media d-flex align-items-center">
+                  <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
+                    <i class="ni ni-spaceship"></i>
+                  </div>
+                  <div class="media-body ml-3">
+                    <h6 class="heading text-primary mb-md-1">Getting started</h6>
+                    <p class="description d-none d-md-inline-block mb-0">Learn how to use compiling Scss, change brand colors and more.</p>
+                  </div>
+                </a>
+                <a href="https://demos.creative-tim.com/argon-design-system/docs/foundation/colors.html" class="media d-flex align-items-center">
+                  <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
+                    <i class="ni ni-palette"></i>
+                  </div>
+                  <div class="media-body ml-3">
+                    <h6 class="heading text-primary mb-md-1">Foundation</h6>
+                    <p class="description d-none d-md-inline-block mb-0">Learn more about colors, typography, icons and the grid system we used for .</p>
+                  </div>
+                </a>
+                <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html" class="media d-flex align-items-center">
+                  <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                    <i class="ni ni-ui-04"></i>
+                  </div>
+                  <div class="media-body ml-3">
+                    <h5 class="heading text-warning mb-md-1">Components</h5>
+                    <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
+              <i class="ni ni-collection d-lg-none"></i>
+              <span class="nav-link-inner--text">Examples</span>
+            </a>
+            <div class="dropdown-menu">
+              <a href="../examples/landing.html" class="dropdown-item">Landing</a>
+              <a href="../examples/profile.html" class="dropdown-item">Profile</a>
+              <a href="../examples/login.html" class="dropdown-item">Login</a>
+              <a href="../examples/register.html" class="dropdown-item">Register</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="https://www.facebook.com/CreativeTim/" target="_blank" data-toggle="tooltip" title="Like us on Facebook">
+              <i class="fa fa-facebook-square"></i>
+              <span class="nav-link-inner--text d-lg-none">Facebook</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="https://www.instagram.com/creativetimofficial" target="_blank" data-toggle="tooltip" title="Follow us on Instagram">
+              <i class="fa fa-instagram"></i>
+              <span class="nav-link-inner--text d-lg-none">Instagram</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="https://twitter.com/creativetim" target="_blank" data-toggle="tooltip" title="Follow us on Twitter">
+              <i class="fa fa-twitter-square"></i>
+              <span class="nav-link-inner--text d-lg-none">Twitter</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="https://github.com/creativetimofficial/argon-design-system" target="_blank" data-toggle="tooltip" title="Star us on Github">
+              <i class="fa fa-github"></i>
+              <span class="nav-link-inner--text d-lg-none">Github</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-neutral" href="https://www.creative-tim.com/builder/argon" target="_blank">
+              <span class="nav-link-inner--text">Online Builder</span>
+            </a>
+          </li>
+          <li class="nav-item d-none d-lg-block">
+            <a href="https://www.creative-tim.com/product/argon-design-system-pro?ref=ads-upgrade-pro" target="_blank" class="btn btn-neutral btn-icon">
+              <span class="btn-inner--icon">
+                <i class="fa fa-shopping-cart"></i>
+              </span>
+              <span class="nav-link-inner--text">Upgrade to PRO</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+  <!-- End Navbar -->
+  <div class="wrapper">
+    <div class="section section-hero section-shaped">
+      <div class="shape shape-style-3 shape-default">
+        <!-- <span class="span-150"></span> -->
+        <!-- <span class="span-50"></span>
+        <span class="span-50"></span>
+        <span class="span-75"></span>
+        <span class="span-100"></span>
+        <span class="span-75"></span>
+        <span class="span-50"></span>
+        <span class="span-100"></span>
+        <span class="span-50"></span>
+        <span class="span-100"></span> -->
+      </div>
+      <div class="page-header">
+        <div class="container shape-container d-flex align-items-center py-lg">
+          <div class="col px-0">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-6 text-center">
+                <h1 class="text-white display-1">haveibeencloned</h1>
+                <h2 class="display-4 font-weight-normal text-white">Defend your digital identity</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="separator separator-bottom separator-skew zindex-100">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </div>
+    <!-- <div class="section features-6">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="info info-horizontal info-hover-primary">
+              <div class="description pl-4">
+                <h5 class="title">For Developers</h5>
+                <p>The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now.</p>
+                <a href="#" class="text-info">Learn more</a>
+              </div>
+            </div>
+            <div class="info info-horizontal info-hover-primary mt-5">
+              <div class="description pl-4">
+                <h5 class="title">For Designers</h5>
+                <p>There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn.</p>
+                <a href="#" class="text-info">Learn more</a>
+              </div>
+            </div>
+            <div class="info info-horizontal info-hover-primary mt-5">
+              <div class="description pl-4">
+                <h5 class="title">For Beginners</h5>
+                <p>That’s what I do. That’s what I’m here for. Don’t be afraid to be wrong because you can’t learn anything from a compliment. If everything I did failed - which it doesn't.</p>
+                <a href="#" class="text-info">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-10 mx-md-auto">
+            <img class="ml-lg-5" src="assets/img/ill/ill.png" width="100%">
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="section features-1">
+      <div class="container">
+        <!-- <div class="row">
+          <div class="col-md-8 mx-auto text-center">
+            <span class="badge badge-primary badge-pill mb-3">Insight</span>
+            <h3 class="display-3">Full-Funnel Social Analytics</h3>
+            <p class="lead">The time is now for it to be okay to be great. For being a bright color. For standing out.</p>
+          </div>
+        </div> -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="info">
+              <div class="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle">
+                <i class="fas fa-fingerprint"></i>
+              </div>
+              
+              <h6 class="info-title text-uppercase text-primary">Fingerprint</h6>
+              <p class="description opacity-8">Fingerprint biometrics analyze the unique patterns of an individual’s fingertips, widely used for secure access. However, compromised fingerprints are permanent, and once stolen, they cannot be changed, making users vulnerable to long-term security threats.</p>
+              <!-- <a href="javascript:;" class="text-primary">More about us
+                <i class="ni ni-bold-right text-primary"></i>
+              </a> -->
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info">
+              <div class="icon icon-lg icon-shape icon-shape-success shadow rounded-circle">
+                <i class="far fa-surprise"></i>
+              </div>
+              <h6 class="info-title text-uppercase text-success">Facial biometrics</h6>
+              <p class="description opacity-8">Facial biometrics capture unique features of an individual’s face, such as the distance between eyes and nose shape, for identification. The risk lies in the ease of spoofing through deepfakes or photos, potentially leading to unauthorized access or identity theft.</p>
+              <!-- <a href="javascript:;" class="text-primary">Learn about our products
+                <i class="ni ni-bold-right text-primary"></i>
+              </a> -->
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info">
+              <div class="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle">
+                <i class="fas fa-wave-square"></i>
+              </div>
+              <h6 class="info-title text-uppercase text-warning">Voice</h6>
+              <p class="description opacity-8">Voice biometrics analyze vocal characteristics for identity verification, commonly used in voice-activated systems. The growing threat of voice cloning and spoofing raises concerns about impersonation and fraud in financial and communication systems.</p>
+              <!-- <a href="javascript:;" class="text-primary">Check our documentation
+                <i class="ni ni-bold-right text-primary"></i>
+              </a> -->
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <!-- <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+              <span class="badge badge-primary badge-pill mb-3">Insight</span>
+              <h3 class="display-3">Full-Funnel Social Analytics</h3>
+              <p class="lead">The time is now for it to be okay to be great. For being a bright color. For standing out.</p>
+            </div>
+          </div> -->
+          <div class="row">
+            <div class="col-md-4">
+              <div class="info">
+                <div class="icon icon-lg icon-shape icon-shape-info shadow rounded-circle">
+                  <i class="fas fa-dna"></i>
+                </div>
+                
+                <h6 class="info-title text-uppercase text-info">Genomic</h6>
+                <p class="description opacity-8">Genomic biometrics use DNA sequences for unique identification in medical and forensic contexts. The risk is that once genomic data is exposed, it can reveal sensitive health information or be used for identity-related attacks.</p>
+                <!-- <a href="javascript:;" class="text-primary">More about us
+                  <i class="ni ni-bold-right text-primary"></i>
+                </a> -->
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="info">
+                <div class="icon icon-lg icon-shape icon-shape-danger shadow rounded-circle">
+                  <i class="far fa-eye"></i>
+                </div>
+                <h6 class="info-title text-uppercase text-danger">Iris and Retinal</h6>
+                <p class="description opacity-8">Iris and retina biometrics rely on intricate eye patterns to authenticate individuals with high accuracy. However, this data can be difficult to secure and, once compromised, can be used for unauthorized access in high-security systems.</p>
+                <!-- <a href="javascript:;" class="text-primary">Learn about our products
+                  <i class="ni ni-bold-right text-primary"></i>
+                </a> -->
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="info">
+                <div class="icon icon-lg icon-shape icon-shape-default shadow rounded-circle">
+                  <i class="fas fa-child"></i>
+                </div>
+                <h6 class="info-title text-uppercase text-default">Behaviour</h6>
+                <p class="description opacity-8">Behavioral biometrics track patterns in human actions, like typing speed or walking gait, to verify identity. These data points can be subtly gathered and exploited for profiling or manipulation without a person’s knowledge.</p>
+                <!-- <a href="javascript:;" class="text-primary">Check our documentation
+                  <i class="ni ni-bold-right text-primary"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <br /><br />
+    <footer class="footer">
+      <div class="container">
+        <div class="row row-grid align-items-center mb-5">
+          <div class="col-lg-6">
+            <h3 class="text-primary font-weight-light mb-2">Thank you for supporting us!</h3>
+            <h4 class="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
+          </div>
+          <div class="col-lg-6 text-lg-center btn-wrapper">
+            <button target="_blank" href="https://twitter.com/creativetim" rel="nofollow" class="btn btn-icon-only btn-twitter rounded-circle" data-toggle="tooltip" data-original-title="Follow us">
+              <span class="btn-inner--icon"><i class="fa fa-twitter"></i></span>
+            </button>
+            <button target="_blank" href="https://www.facebook.com/CreativeTim/" rel="nofollow" class="btn-icon-only rounded-circle btn btn-facebook" data-toggle="tooltip" data-original-title="Like us">
+              <span class="btn-inner--icon"><i class="fab fa-facebook"></i></span>
+            </button>
+            <button target="_blank" href="https://dribbble.com/creativetim" rel="nofollow" class="btn btn-icon-only btn-dribbble rounded-circle" data-toggle="tooltip" data-original-title="Follow us">
+              <span class="btn-inner--icon"><i class="fa fa-dribbble"></i></span>
+            </button>
+            <button target="_blank" href="https://github.com/creativetimofficial" rel="nofollow" class="btn btn-icon-only btn-github rounded-circle" data-toggle="tooltip" data-original-title="Star on Github">
+              <span class="btn-inner--icon"><i class="fa fa-github"></i></span>
             </button>
           </div>
         </div>
-
-
-
-<!--        <input class="dna" type="text"/>
-      <a href="#submit" id="download-button" class="btn-large waves-effect waves-light orange">Lookup my DNA</a>
--->
-    </div>
-    <br><br>
-
-  </div>
-</div>
-
-<!--
-<div class="container">
-  <div class="section">
-
-
-    <div class="row">
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="material-icons">fingerprint</i></h2>
-          <h5 class="center">Protect your identity</h5>
-
-          <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-          <h5 class="center">Find existing Dupes</h5>
-
-          <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="material-icons">remove_red_eye</i></h2>
-          <h5 class="center">Find who's watching you</h5>
-
-          <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <br><br>
-</div>
--->
-<div class="container">
-  <div class="section">
-    {% for post in site.posts %}
-      <div class="row">
-        <div class="col s12 m12">
-            <div class="icon-block">
-              <h5>{{ post.title }}</h5>
-              <small>{{ post.date | date: "%a, %b %d, %y" }}</small> - <a href="{{ post.link }}" target="_blank">{{ post.target }}</a>
-            <hr>
+        <hr>
+        <div class="row align-items-center justify-content-md-between">
+          <div class="col-md-6">
+            <div class="copyright">
+              &copy; 2020 <a href="" target="_blank">Creative Tim</a>.
             </div>
+          </div>
+          <div class="col-md-6">
+            <ul class="nav nav-footer justify-content-end">
+              <li class="nav-item">
+                <a href="" class="nav-link" target="_blank">Creative Tim</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link" target="_blank">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link" target="_blank">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link" target="_blank">License</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
-    {% endfor %}
+      </div>
+    </footer>
   </div>
-</div>
-<script>
-  $('.dna').keypress(function(event) {
-    var code = (event.keyCode ? event.keyCode : event.which);
-    if ([65, 67, 71, 84].indexOf(code) < 0) {
-      event.preventDefault();
-    }
+  <!--   Core JS Files   -->
+  <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="assets/js/plugins/bootstrap-switch.js"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/moment.min.js"></script>
+  <script src="assets/js/plugins/datetimepicker.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/bootstrap-datepicker.min.js"></script>
+  <!-- Control Center for Argon UI Kit: parallax effects, scripts for the example pages etc -->
+  <!--  Google Maps Plugin    -->
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script> -->
+  <script src="assets/js/argon-design-system.min.js?v=1.2.2" type="text/javascript"></script>
+  <!-- <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+  <script>
+    window.TrackJS &&
+      TrackJS.install({
+        token: "ee6fab19c5a04ac1a32a645abde4613a",
+        application: "argon-design-system-pro"
+      });
+  </script> -->
+</body>
 
-  });
-
-  $(document).ready(function() {
-    $('input#dna_inline').characterCounter();
-  });
-</script>
+</html>
