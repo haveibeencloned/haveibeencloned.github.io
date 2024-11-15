@@ -1,0 +1,23 @@
+---
+layout: default
+title:  news
+---
+
+<div class="section features-6">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-12">
+          <h4 class="title">In the news</h5>
+          {% for post in site.posts %}
+            <div class="info info-horizontal info-hover-primary">
+              <div class="description pl-4">
+                <h6 class="title">{{ post.title }}</h5>
+                <p>{{ post.date | date: "%a, %b %d, %y" }} - <a href="{{ post.link }}" target="_blank">{{ post.target }}</a></p>
+                <hr/>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
